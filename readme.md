@@ -19,7 +19,7 @@ The following is my experimental environment, which does not represent the minim
 
 ## Usage
 
-Download the repository and Haze1K dataset, and change the configuration in the `config.py` file.
+Download the repository and Haze1K dataset [(Download dataset)](https://www.dropbox.com/scl/fi/wtga5ltw5vby5x7trnp0p/Haze1k.zip?rlkey=70s52w3flhtif020nx250jru3&e=1&dl=0), and change the configuration in the `config.py` file.
 
 Then, run the `train.py` to train the model.
 
@@ -58,3 +58,10 @@ Upload the original fog image and the corresponding real fog free image
 
 System generated result
 ![img3.png](imgs/3.png)
+
+## Reference
+[1] Huang B, Zhi L, Yang C, et al. Single satellite optical imagery dehazing using SAR image prior based on conditional generative adversarial networks[C]//Proceedings of the IEEE/CVF winter conference on applications of computer vision. 2020: 1806-1813.
+
+[2] Ronneberger O, Fischer P, Brox T. U-net: Convolutional networks for biomedical image segmentation[C]//Medical image computing and computer-assisted intervention–MICCAI 2015: 18th international conference, Munich, Germany, October 5-9, 2015, proceedings, part III 18. Springer international publishing, 2015: 234-241.
+
+[3] Wang Q, Wu B, Zhu P, et al. ECA-Net: Efficient channel attention for deep convolutional neural networks[C]//Proceedings of the IEEE/CVF conference on computer vision and pattern recognition. 2020: 11534-11542.
